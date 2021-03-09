@@ -1,1 +1,19 @@
-console.log(123, '--- 123'); // eslint-disable-line no-console
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (request, response) => {
+    response.send('Trang chủ')
+})
+
+app.get('/about-us', (request, response) => {
+    response.send('Thông tin về chúng tôi')
+})
+
+app.get('/detail', (request, response) => {
+    response.send('Chi tiết bài viết')
+})
+
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`)
+})

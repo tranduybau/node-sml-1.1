@@ -1,0 +1,10 @@
+{
+  "name": "sml-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bautd-2046 <tran.duy.bau@sun-asterisk.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

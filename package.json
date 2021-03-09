@@ -4,10 +4,10 @@
   "main": "index.js",
   "author": "bautd-2046 <tran.duy.bau@sun-asterisk.com>",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
   "scripts": {
     "test": "Echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

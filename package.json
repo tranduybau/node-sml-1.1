@@ -1,6 +1,6 @@
 {
   "name": "sml-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "bautd-2046 <tran.duy.bau@sun-asterisk.com>",
   "license": "MIT",
